@@ -1,0 +1,6 @@
+radius = float(input("Enter the radius: "))
+print("You have entered this radius: " , radius)
+print("The diameter is: " , radius * 2)
+print("The circumference is: " , radius * 2 * 3.14)
+print("The volume is: " , (4/3) * 3.14 * (radius**3))
+print("The surface area is: " , 4 * 3.14 * (radius**2))
